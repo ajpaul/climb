@@ -1,0 +1,80 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Add Gym
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <!-- used for selecting open/close times -->
+
+  <ion-label>Gym Name:</ion-label>
+  <ion-input type="text" name="firstName" #firstName="ngModel" [(ngModel)]="addUser.firstName" placeholder="First name" required></ion-input>
+
+  <ion-label>Address:</ion-label>
+  <ion-input type="text" name="firstName" #firstName="ngModel" [(ngModel)]="addUser.firstName" placeholder="First name" required></ion-input>
+
+  <ion-label>Address (line 2):</ion-label>
+  <ion-input type="text" name="firstName" #firstName="ngModel" [(ngModel)]="addUser.firstName" placeholder="First name" required></ion-input>
+
+  <ion-label>City:</ion-label>
+  <ion-input type="text" name="firstName" #firstName="ngModel" [(ngModel)]="addUser.firstName" placeholder="First name" required></ion-input>
+  
+  <ion-label>State:</ion-label>
+  <ion-input type="text" name="firstName" #firstName="ngModel" [(ngModel)]="addUser.firstName" placeholder="First name" required></ion-input>
+
+  <ion-label>City:</ion-label>
+  <ion-input type="text" name="firstName" #firstName="ngModel" [(ngModel)]="addUser.firstName" placeholder="First name" required></ion-input>
+
+  <ion-label>Zip:</ion-label>
+  <ion-input type="text" name="firstName" #firstName="ngModel" [(ngModel)]="addUser.firstName" placeholder="First name" required></ion-input>
+
+  <ion-label>Phone:</ion-label>
+  <ion-input type="text" name="firstName" #firstName="ngModel" [(ngModel)]="addUser.firstName" placeholder="First name" required></ion-input>
+
+  <ion-label>Email:</ion-label>
+  <ion-input type="text" name="firstName" #firstName="ngModel" [(ngModel)]="addUser.firstName" placeholder="First name" required></ion-input>
+
+  <ion-label>Website:</ion-label>
+  <ion-input type="text" name="firstName" #firstName="ngModel" [(ngModel)]="addUser.firstName" placeholder="First name" required></ion-input>
+
+  <ion-label>Headquaters?:</ion-label>
+  <ion-input type="text" name="firstName" #firstName="ngModel" [(ngModel)]="addUser.firstName" placeholder="First name" required></ion-input>
+
+  <ion-label>Child Gyms:</ion-label>
+  <ion-input type="text" name="firstName" #firstName="ngModel" [(ngModel)]="addUser.firstName" placeholder="First name" required></ion-input>
+
+  <ion-label>Rating System(s):</ion-label>
+  <ion-input type="text" name="firstName" #firstName="ngModel" [(ngModel)]="addUser.firstName" placeholder="First name" required></ion-input>
+
+  <ion-item>
+    <ion-range>
+      <ion-icon slot="start" size="small" name="sunny"></ion-icon>
+      <ion-icon slot="end" name="sunny"></ion-icon>
+    </ion-range>
+  </ion-item>
+
+  <ion-list>
+    <ion-list-header>Multiple Selection</ion-list-header>
+  
+    <ion-item>
+      <ion-label>Types of Climbing: </ion-label>
+      <ion-select multiple="true" cancelText="Nah" okText="Okay!">
+        <ion-select-option value="bouldering">Bouldering</ion-select-option>
+        <ion-select-option value="topRoping">Top Roping</ion-select-option>
+        <ion-select-option value="lead">Lead</ion-select-option>
+        <ion-select-option value="trad">Trad</ion-select-option>
+        <ion-select-option value="ice">Ice</ion-select-option>
+        <ion-select-option value="speed">Speed</ion-select-option>
+        <ion-select-option value="autoBelay">Auto-belay</ion-select-option>
+        <ion-select-option value="weightAndConditioning">Weight/conditioning</ion-select-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+      <!-- dropdown for ratings -->
+</ion-content>
